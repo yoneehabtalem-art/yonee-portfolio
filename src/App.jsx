@@ -19,6 +19,9 @@ function App() {
 
 
       {/* Hero Section */}
+      <a href="/resume.pdf" className="btn" download>
+  📄 Download CV
+</a>
       <section className="hero" id="home">
 
         <div className="hero-text">
