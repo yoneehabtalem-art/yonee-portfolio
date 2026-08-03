@@ -24,17 +24,18 @@ function App() {
         <div className="hero-text">
 
           <h1>
-            Hi, I'm <span>Yonee Habtalem</span>
-          </h1>
+  Hi, I'm <span>Yonee Habtalem</span>
+</h1>
 
-          <h2>
-            Python Developer | Web Developer
-          </h2>
+<h2>
+  Python Developer | React Developer | Automation Builder
+</h2>
 
-          <p>
-            I build modern websites, Python automation tools,
-            Telegram bots, and creative software solutions.
-          </p>
+<p>
+  I create modern websites, Python automation tools,
+  Telegram bots, and creative software solutions
+  that solve real-world problems.
+</p>
 
           <div className="hero-buttons">
 
@@ -139,89 +140,69 @@ function App() {
 
       {/* Projects */}
       <section id="projects">
-
-  <h2>My Projects</h2>
-
+  <h2>Projects</h2>
 
   <div className="project-container">
 
-
     <div className="project-card">
-
-      <h3>Portfolio Website</h3>
+      <h3>💼 Portfolio Website</h3>
 
       <p>
-        A modern personal portfolio website built
-        using React and CSS animations.
+        A modern personal portfolio built with React,
+        featuring responsive design, animations,
+        and a professional user interface.
       </p>
 
-      <div className="tech">
-        React • CSS • JavaScript
-      </div>
+      <p className="tech">
+        React • JavaScript • CSS • Vercel
+      </p>
 
-      <a 
-        href="#"
+      <a
+        href="https://yonee-portfolio-olive.vercel.app/"
+        target="_blank"
+        rel="noreferrer"
         className="project-btn"
       >
-        View Project
+        Live Demo
       </a>
 
     </div>
 
 
-
     <div className="project-card">
 
-      <h3>Telegram Bot</h3>
+      <h3>🤖 Telegram Bot</h3>
 
       <p>
-        A Python Telegram bot that can handle
-        user messages and automate tasks.
+        A Python Telegram bot that automates tasks,
+        receives user messages, and provides instant responses.
       </p>
 
-      <div className="tech">
+      <p className="tech">
         Python • Telegram API
-      </div>
-
-      <a 
-        href="#"
-        className="project-btn"
-      >
-        View Project
-      </a>
+      </p>
 
     </div>
-
 
 
     <div className="project-card">
 
-      <h3>Python Automation</h3>
+      <h3>⚡ Python Automation</h3>
 
       <p>
-        Automation scripts that reduce repetitive
-        computer tasks using Python.
+        Automation scripts that save time by handling
+        repetitive computer tasks efficiently.
       </p>
 
-      <div className="tech">
+      <p className="tech">
         Python • Automation
-      </div>
-
-      <a 
-        href="#"
-        className="project-btn"
-      >
-        View Project
-      </a>
+      </p>
 
     </div>
-
 
   </div>
 
-
 </section>
-
       {/* Contact */}
       <section id="contact">
 
